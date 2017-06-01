@@ -46,11 +46,11 @@ article,aside{
 	box-shadow: 3px 3px 3px 3px grey;
 	padding: 16px;
 }
-article h1{
+article h2{
 	margin: 0;
 	padding-top: 20px;
 }
-article h2{
+article h3{
 	font-size: 18px;
 	color: #B5B5B5;
 }
