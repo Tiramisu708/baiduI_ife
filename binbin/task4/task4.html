@@ -25,11 +25,10 @@
   </div>
   <div id='container'></div>
   <script type="text/javascript">
-  
-
   var container = document.getElementById('container'),
   btns = document.getElementById('btns'),
-  input = document.getElementById('input');
+  input = document.getElementById('input'),
+  numEles = container.getElementsByTagName('span');
 
 //添加
 function getInput(){
@@ -59,7 +58,7 @@ input.value='';
 }
 //删除
 function remove(dir){
-  if(container.childNodes.length == 0){
+  if(numEles.length == 0){
     alert('没有可以删除的对象，请先添加');
     return false;
   }
@@ -91,9 +90,6 @@ container.onclick=function(event){
   var deleEle = event.target;
   container.removeChild(deleEle);
 }
-
-
-
 </script>
 </body>
 </html>
