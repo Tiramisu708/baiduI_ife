@@ -37,14 +37,17 @@ li.active a{
 	color:grey;
 }
 /*main*/
+main{
+	padding-right:550px;
+	position: relative;
+}
 article,aside{
 	background: white;
 	width: 90%;
-	margin-right: auto;
-	margin-left: auto;
 	margin: 20px auto;
 	box-shadow: 3px 3px 3px 3px grey;
 	padding: 16px;
+	overflow: hidden;
 }
 article h2{
 	margin: 0;
@@ -73,6 +76,8 @@ article .imgs li{
 	text-align: center;
 	margin-bottom: 16px;
 	padding-bottom: 10px;
+	float: left;
+	margin-right: 20px;
 }
 article .imgs p{
 	text-indent: 0;
@@ -93,6 +98,13 @@ article tfoot{
 	font-weight: bold;
 }
 /*aside*/
+aside{
+	width: 500px;
+	position: absolute;
+	right: 25px;
+	top: 0px;
+	margin-top: 0;
+}
 aside h3{
 	border-left:4px solid grey;
 	padding: 8px 0 8px 7px;
